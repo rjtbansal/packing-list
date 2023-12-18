@@ -19,6 +19,9 @@ const Application = () => {
   Notice those highlights with devtools open when you type on input form
 
   So we move newItemName a level down in new-item component where its needed
+
+  Tip: Before even trying to use memoize functions think if the state is lifted too high. Find that common
+  denominator and put the state there. That way other components that dont need dont unnecessarily load
   */
   // const [newItemName, setNewItemName] = useState('');
 
